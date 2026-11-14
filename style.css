@@ -1,0 +1,49 @@
+﻿body {
+text-align: left;
+background: #f6f6f1;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+color: #36322d;
+background-size: cover;
+padding: 1% 3%;
+}
+
+h1,h2,h3, a {
+color: #5885b0;
+text-decoration: none;
+text-shadow: 3px 3px #4a709411;
+}
+
+h2 {
+  font-size: 65px;
+}
+
+
+p {
+color: #36322d;
+text-shadow: 2px 2px #26232011;
+font-size: 30px;
+}
+
+
+.textNickname {
+  padding: 1% 2%;
+}
+
+
+@font-face {
+font-family: pixel;
+src: url(fonts/martianmono.ttf);
+}
+h1,h2,h3,h4,a,p,td,menu,marquee {
+font-family: pixel, 'vga8', monospace;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
